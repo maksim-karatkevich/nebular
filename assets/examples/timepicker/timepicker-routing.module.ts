@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Route} from '@angular/router';
 import { TimepickerShowcaseComponent } from './timepicker-showcase.component';
 import { TimepickerTwelveHoursFormatComponent } from './timepicker-twelve-hours-format.component';
-import { TimepickerFullHoursFormatComponent } from './timepicker-fullHours-format.component';
+import { TimepickerSingleColumnComponent } from './timepicker-single-column.component';
 
 const routes: Route[] = [
   {
@@ -14,8 +14,8 @@ const routes: Route[] = [
     component: TimepickerTwelveHoursFormatComponent,
   },
   {
-    path: 'timepicker-full-hours-format.component',
-    component: TimepickerFullHoursFormatComponent,
+    path: 'timepicker-single-column.component',
+    component: TimepickerSingleColumnComponent,
   },
 ];
 
