@@ -32,6 +32,10 @@ const routes: Route[] = [
         loadChildren: () => import('./button/button.module').then(m => m.ButtonModule),
       },
       {
+        path: 'button-group',
+        loadChildren: () => import('./button-group/button-group.module').then(m => m.ButtonGroupModule),
+      },
+      {
         path: 'calendar',
         loadChildren: () => import('./calendar/calendar.module').then(m => m.CalendarModule),
       },
@@ -54,10 +58,6 @@ const routes: Route[] = [
       {
         path: 'datepicker',
         loadChildren: () => import('./datepicker/datepicker.module').then(m => m.DatepickerModule),
-      },
-      {
-        path: 'timepicker',
-        loadChildren: () => import('./timepicker/timepicker.module').then(m => m.TimepickerModule),
       },
       {
         path: 'dialog',

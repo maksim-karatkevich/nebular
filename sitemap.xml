@@ -296,6 +296,21 @@
        <loc>https://akveo.github.io/nebular/docs/components/button/examples</loc>
      </url>
      <url>
+       <loc>https://akveo.github.io/nebular/docs/components/button-group</loc>
+     </url>
+     <url>
+       <loc>https://akveo.github.io/nebular/docs/components/button-group/overview</loc>
+     </url>
+     <url>
+       <loc>https://akveo.github.io/nebular/docs/components/button-group/api</loc>
+     </url>
+     <url>
+       <loc>https://akveo.github.io/nebular/docs/components/button-group/theme</loc>
+     </url>
+     <url>
+       <loc>https://akveo.github.io/nebular/docs/components/button-group/examples</loc>
+     </url>
+     <url>
        <loc>https://akveo.github.io/nebular/docs/components/checkbox</loc>
      </url>
      <url>
@@ -384,21 +399,6 @@
      </url>
      <url>
        <loc>https://akveo.github.io/nebular/docs/components/datepicker/examples</loc>
-     </url>
-     <url>
-       <loc>https://akveo.github.io/nebular/docs/components/timepicker</loc>
-     </url>
-     <url>
-       <loc>https://akveo.github.io/nebular/docs/components/timepicker/overview</loc>
-     </url>
-     <url>
-       <loc>https://akveo.github.io/nebular/docs/components/timepicker/api</loc>
-     </url>
-     <url>
-       <loc>https://akveo.github.io/nebular/docs/components/timepicker/theme</loc>
-     </url>
-     <url>
-       <loc>https://akveo.github.io/nebular/docs/components/timepicker/examples</loc>
      </url>
      <url>
        <loc>https://akveo.github.io/nebular/docs/components/popover</loc>
