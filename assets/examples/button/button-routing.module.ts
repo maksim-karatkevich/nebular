@@ -10,7 +10,6 @@ import { ButtonSizesComponent } from './button-sizes.component';
 import { ButtonTypesComponent } from './button-types.component';
 import { ButtonIconComponent } from './button-icon.component';
 import { ButtonInteractiveComponent } from './button-interactive.component';
-import { ButtonGroupShowcaseComponent } from '../button-group/button-group-showcase.component';
 
 const routes: Route[] = [
   {
@@ -52,10 +51,6 @@ const routes: Route[] = [
   {
     path: 'button-interactive.component',
     component: ButtonInteractiveComponent,
-  },
-  {
-    path: 'button-group-showcase.component',
-    component: ButtonGroupShowcaseComponent,
   },
 ];
 
