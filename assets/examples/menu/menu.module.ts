@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { NbBadgeModule, NbButtonModule, NbCardModule, NbMenuModule } from '@nebular/theme';
+import { NbButtonModule, NbCardModule, NbMenuModule } from '@nebular/theme';
 import { MenuRoutingModule } from './menu-routing.module';
 import { MenuChildrenComponent } from './menu-children.component';
 import { MenuShowcaseComponent } from './menu-showcase.component';
@@ -16,7 +16,6 @@ import {
   MenuServiceItem332Component,
 } from './menu-service-children';
 import { MenuServiceComponent } from './menu-service.component';
-import { MenuBadgeComponent } from './menu-badge.component';
 
 @NgModule({
   declarations: [
@@ -33,14 +32,12 @@ import { MenuBadgeComponent } from './menu-badge.component';
     MenuServiceItem331Component,
     MenuServiceItem332Component,
     MenuServiceComponent,
-    MenuBadgeComponent,
   ],
   imports: [
     NbMenuModule.forRoot(),
     NbCardModule,
     MenuRoutingModule,
     NbButtonModule,
-    NbBadgeModule,
   ],
 })
 export class MenuModule {}

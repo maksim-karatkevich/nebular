@@ -5,7 +5,6 @@ import { ActionShowcaseComponent } from './action-showcase.component';
 import { ActionSizesComponent } from './action-sizes.component';
 import { ActionTestComponent } from './action-test.component';
 import { ActionWidthComponent } from './action-width.component';
-import { ActionDotModeComponent } from './action-dot-mode.component';
 
 const routes: Route[] = [
   {
@@ -27,10 +26,6 @@ const routes: Route[] = [
   {
     path: 'action-width.component',
     component: ActionWidthComponent,
-  },
-  {
-    path: 'action-dot-mode.component',
-    component: ActionDotModeComponent,
   },
 ];
 

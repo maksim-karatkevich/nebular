@@ -15,7 +15,6 @@ import {
   MenuServiceItem3Component,
 } from './menu-service-children';
 import { MenuServiceComponent } from './menu-service.component';
-import { MenuBadgeComponent } from './menu-badge.component';
 
 const routes: Route[] = [
   {
@@ -33,10 +32,6 @@ const routes: Route[] = [
   {
     path: 'menu-link-params.component',
     component: MenuLinkParamsComponent,
-  },
-  {
-    path: 'menu-badge.component',
-    component: MenuBadgeComponent,
   },
   {
     path: 'menu-service.component',
