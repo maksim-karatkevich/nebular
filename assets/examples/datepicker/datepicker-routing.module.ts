@@ -4,8 +4,6 @@ import { DatepickerFormsComponent } from './datepicker-forms.component';
 import { DatepickerShowcaseComponent } from './datepicker-showcase.component';
 import { DatepickerValidationComponent } from './datepicker-validation.component';
 import { RangepickerShowcaseComponent } from './rangepicker-showcase.component';
-import { DateTimepickerShowcaseComponent } from './date-timepicker-showcase.component';
-import { DateTimepickerSingleColumnComponent } from './date-timepicker-single-column.component';
 
 const routes: Route[] = [
   {
@@ -15,14 +13,6 @@ const routes: Route[] = [
   {
     path: 'datepicker-showcase.component',
     component: DatepickerShowcaseComponent,
-  },
-  {
-    path: 'date-timepicker-showcase.component',
-    component: DateTimepickerShowcaseComponent,
-  },
-  {
-    path: 'date-timepicker-single-column.component',
-    component: DateTimepickerSingleColumnComponent,
   },
   {
     path: 'datepicker-validation.component',
